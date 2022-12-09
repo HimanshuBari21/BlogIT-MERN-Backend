@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 
 app.use(express.static('public'));
 
-mongoose.connect("mongodb+srv://Himanshu21:Qwaszx%40123@cluster0.66ymbkc.mongodb.net/HimanshuBari");
+mongoose.connect("mongodb+srv://Himanshu21:<password>@cluster0.66ymbkc.mongodb.net/HimanshuBari");
 
 app.get('/', (req, res) => {
     res.send("Server Running...")
